@@ -1,0 +1,5 @@
+$(document).ready(function(e) {
+	$('.ftos').click(function(e) {
+		$(this).fadeOut(1800);
+	});
+});

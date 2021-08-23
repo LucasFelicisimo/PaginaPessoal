@@ -1,0 +1,75 @@
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('imagem/background.png');
+    font-family: "Times New Roman", Times, serif;
+}
+
+.central {
+    width: 1010px;
+    margin: 0 auto;
+    height: 1087px;
+}
+
+.ftosgr {
+    width: 1000px;
+    height: 534px;
+}
+
+.ftos {
+    width: 1000px;
+    height: 534px;
+    position: absolute;
+}
+
+.ftospq {
+    width: 185px;
+    height: 116px;
+    float: left;
+    margin: 10px 1px 10px 13px;
+}
+
+.campo {
+    width: 991px;
+    padding: 3px;
+    margin: 0px;
+    border-style: solid;
+    border-color: red;
+    background-color: black;
+}
+
+.tag {
+    color: lightyellow;
+    text-align: center;
+    font-size: 30px;
+    border-style: double;
+    border-color: red;
+    margin: 0px;
+    background-color: black;
+}
+
+.resumos {
+    text-align: center;
+}
+
+.champs {
+    background-color: black;
+    border-style: double;
+    border-color: red;
+    margin-bottom: 10px;
+}
+
+.tagfil {
+    color: lightyellow;
+    text-align: center;
+    font-size: 30px;
+    border-style: double;
+    border-color: red;
+    margin: 0px;
+    background-color: black;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de um galeria virtual dos campões do jogo League of Legends">
+    <meta name="keywords" content="League of Legends, lol, champions, campões, galeria">
+    <meta name="author" content="Lucas Felicissimo">
+    <meta http-equiv="refresh" content="30">
+    <link href="cssjquery.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <title>Galeria LOL</title>
+
+    <script>
+        atual = "";
+
+        function exibir(foto) {
+
+            if (foto != atual) {
+                $('.ftos').fadeOut(100);
+                $(foto).fadeIn(100);
+                atual = foto;
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="central">
+        <fieldset class="campo">
+            <legend class="tag">Meu Top 10 Champions</legend>
+            <div class="ftosgr">
+                <img src="imagem/aatrox.jpg	" class="ftos" id="ft1" />
+                <img src="imagem/aurelion.jpg" class="ftos" id="ft2" />
+                <img src="imagem/ekko.jpg" class="ftos" id="ft3" />
+                <img src="imagem/gp.jpg" class="ftos" id="ft4" />
+                <img src="imagem/kindred.jpg" class="ftos" id="ft5" />
+                <img src="imagem/ornn.jpg" class="ftos" id="ft6" />
+                <img src="imagem/pyke.jpg" class="ftos" id="ft7" />
+                <img src="imagem/teemo.jpg" class="ftos" id="ft8" />
+                <img src="imagem/thresh.jpg" class="ftos" id="ft9" />
+                <img src="imagem/jax.jpg " class="ftos" id="ft10" />
+                <img src="imagem/lol.jpg" class="ftos" id="ft10" />
+
+            </div>
+
+        </fieldset>
+        <fieldset class="champs">
+            <legend class="tagfil">Champions</legend>
+            <img src="imagem/aatrox.gif" class="ftospq" onclick="exibir('#ft1')" />
+            <img src="imagem/aurelion.gif" class="ftospq" onclick="exibir('#ft2')" />
+            <img src="imagem/ekko.gif" class="ftospq" onclick="exibir('#ft3')" />
+            <img src="imagem/gp.gif" class="ftospq" onclick="exibir('#ft4')" />
+            <img src="imagem/kindred.gif" class="ftospq" onclick="exibir('#ft5')" />
+            <img src="imagem/ornn.gif" class="ftospq" onclick="exibir('#ft6')" />
+            <img src="imagem/pyke.gif" class="ftospq" onclick="exibir('#ft7')" />
+            <img src="imagem/teemo.gif" class="ftospq" onclick="exibir('#ft8')" />
+            <img src="imagem/thresh.gif" class="ftospq" onclick="exibir('#ft9')" />
+            <img src="imagem/jax.gif" class="ftospq" onclick="exibir('#ft10')" />
+
+        </fieldset>
+    </div>
+</body>
+
+</html>
